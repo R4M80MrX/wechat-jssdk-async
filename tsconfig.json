@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "node_modules",
+    "lib/"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "lib":["ES2015", "DOM"],
+    "outDir": "lib",
+    "declaration": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  }
+}
